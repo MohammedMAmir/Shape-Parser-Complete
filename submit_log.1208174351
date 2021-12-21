@@ -1,0 +1,44 @@
+Submitting assignment 5 from remote.ecf.utoronto.ca
+Checking for the expected files in the current directory
+Rectangle.h Rectangle.cpp Triangle.h Triangle.cpp Parser.cpp
+Attempting to build your code.  Make output follows:
+==================================================================
+g++ -std=c++11 -c -g Parser.cpp -o Parser.o
+g++ -std=c++11 -c -g Circle.cpp -o Circle.o
+g++ -std=c++11 -c -g Rectangle.cpp -o Rectangle.o
+g++ -std=c++11 -c -g Triangle.cpp -o Triangle.o
+g++ -std=c++11 Parser.o Circle.o Rectangle.o Triangle.o Shape.o ShapesDB.o -o Parser.exe
+------------------------------------------------------------------
+The build appears to have been successful
+
+Running exercise on the produced executable 'Parser.exe'
+############### Testcase 1 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 2 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+############### Testcase 3 Results ##########################
+Functionality: PASS - Output matches solution
+Valgrind:      PASS - No memory leaks detected
+################# Summary for 3 test(s) #####################
+Functionality: PASS: All tests passed
+Valgrind:      PASS: No memory leaks detected
+
+The required files passed exercise
+
+Submitting files
+
+Verifying submission
+submitece244f -l 5
+total 24
+-rw-r----- 1 submit ece244f 4600 Dec  8 17:43 Parser.cpp
+-rw-r----- 1 submit ece244f 1368 Dec  8 17:43 Rectangle.cpp
+-rw-r----- 1 submit ece244f 1088 Dec  8 17:43 Rectangle.h
+-rw-r----- 1 submit ece244f 2209 Dec  8 17:43 Triangle.cpp
+-rw-r----- 1 submit ece244f 1399 Dec  8 17:43 Triangle.h
+
+All filesizes match. All timestamps match submission time.
+
+Submission was successful
+
